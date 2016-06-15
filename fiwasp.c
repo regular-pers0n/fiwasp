@@ -39,7 +39,7 @@
 
 const float version = 0.01;
 char help(), helpOptMode(), helpServerXmlOptMode(), helpResourcesXmlOptMode(), helpOptFile();
-int line(), count(), fileExist(), serverIndexXml(), serverXml(), virtualhostXml(), variablesXml(), resourcesXml();
+int line(), fileExist(), serverIndexXml(), serverXml(), virtualhostXml(), variablesXml(), resourcesXml();
 
 int main(int argc, char **argv) {
 	char *mode = NULL;
