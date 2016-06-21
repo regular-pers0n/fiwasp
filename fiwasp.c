@@ -21,6 +21,7 @@
  * Ext. lib:    libxml2
  *
  * Compilation: gcc -std=gnu99 -I/usr/include/libxml -O0 -g3 -Wall -c -MMD -MP -MF"fiwasp.d" -MT"fiwasp.d" -o "fiwasp.o" "fiwasp.c"
+ *              gcc -o "fiwasp" ./fiwasp.o -lxml2
  *
  * Usage:       ./fiwasp [-m mode|-f file.xml|-h]
  *
